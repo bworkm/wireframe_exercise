@@ -58,9 +58,11 @@ footer {
   width: 450px;
   padding: 15px 0 0 15px;
 }
-.featured > h2 {
-}
 .featured > p {
   height: 362px;
   overflow-y: scroll;
+}
+button:hover {
+  transition-duration: 350ms;
+  background-color: lightgreen;
 }
