@@ -11,6 +11,9 @@
 .mainWrap > main > img {
   padding: 15px 0px 15px 0px;
 }
+.articles {
+  height: 405px;
+}
 .articles > ul > li {
   width: 300px;
   float: left;
@@ -28,6 +31,9 @@ header, footer {
 header > img {
   margin-right: 15px;
 }
+footer {
+  height: 60px;
+}
 .socialList {
   width: 710px;
   text-align: center;
@@ -38,9 +44,23 @@ header > img {
   padding-top: 25px;
   width: 160px;
 }
-.featuredDesc > div > img {
+.section > div > img {
   padding: 15px 15px 15px 0;
 }
+.section {
+  display: inline-flex;
+  justify-content: center;
+}
+.sectionImg {
+  width: 495px;
+}
 .featured {
-  width: 445px;
+  width: 450px;
+  padding: 15px 0 0 15px;
+}
+.featured > h2 {
+}
+.featured > p {
+  height: 362px;
+  overflow-y: scroll;
 }
