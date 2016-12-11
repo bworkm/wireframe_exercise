@@ -1,0 +1,46 @@
+.headFootWrap {
+  width: 960px;
+  padding: 15px 0px 15px 0px;
+  margin: 0 auto;
+}
+.mainWrap {
+  width: 960px;
+  padding: 15px 0px 15px 0px;
+  margin: 0 auto;
+}
+.mainWrap > main > img {
+  padding: 15px 0px 15px 0px;
+}
+.articles > ul > li {
+  width: 300px;
+  float: left;
+  padding: 15px;
+}
+.articles > ul > li:first-child {
+padding-left: 0;
+}
+.articles > ul > li:last-child {
+  padding-right: 0;
+}
+header, footer {
+  background-color: grey;
+}
+header > img {
+  margin-right: 15px;
+}
+.socialList {
+  width: 710px;
+  text-align: center;
+  float: right;
+}
+.socialItem {
+  display: inline-block;
+  padding-top: 25px;
+  width: 160px;
+}
+.featuredDesc > div > img {
+  padding: 15px 15px 15px 0;
+}
+.featured {
+  width: 445px;
+}
